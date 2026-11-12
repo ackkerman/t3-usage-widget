@@ -3,8 +3,7 @@
 > T3 Code のトークン、コスト、利用上限を macOS で確認するコンパニオンアプリ。
 
 <p align="center">
-  <a href="docs/images/widget.png"><img src="docs/images/widget.png" height="320" alt="デスクトップウィジェット" /></a>
-  <a href="docs/images/menu-bar.png"><img src="docs/images/menu-bar.png" height="320" alt="メニューバー" /></a>
+  <a href="docs/images/overview.png"><img src="docs/images/overview.png" width="760" alt="T3 Usage のウィジェットとメニューバー" /></a>
 </p>
 
 ## はじめ方
