@@ -22,7 +22,7 @@ make install-local  # 既存のアプリを退避し ~/Applications に配置
 
 `make install-local` の実行前に T3 Usage を終了してください。アプリを起動したら、デスクトップを右クリックして「ウィジェットを編集」を選び、**T3 Usage** を追加します。メニューバーのグラフアイコンからも使用量を確認できます。
 
-現時点ではソースからのローカルビルドを前提としており、署名・公証された配布版は用意していません。
+GitHub Releases の ZIP を展開すると `T3Usage.app` を取り出せます。このビルドは Apple Silicon と Intel を含みますが、アドホック署名のみで Apple Developer ID による署名・公証は行っていません。Gatekeeper の通常審査では拒否されるため、ソースからのローカルビルドも利用できます。Intel Mac での実機動作は未確認です。
 
 ## 別の T3 Code 環境を接続
 

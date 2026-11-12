@@ -6,3 +6,7 @@ T3UsageWidget.xcodeproj/
 
 # Machine-specific work history stays local.
 *.local.md
+
+# Release build output
+build-release/
+dist/

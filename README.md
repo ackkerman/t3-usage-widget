@@ -8,6 +8,10 @@
 
 ## はじめ方
 
+[Releases](https://github.com/ackkerman/t3-usage-widget/releases) からビルドをダウンロードできます。公開ビルドはアドホック署名のみで Apple の公証は受けておらず、macOS の通常審査では拒否されます。
+
+ソースからビルドする場合：
+
 macOS 14 以降、起動中の [T3 Code](https://github.com/pingdotgg/t3code)、`t3` コマンド、Xcode、Swift、[XcodeGen](https://github.com/yonaskolb/XcodeGen) が必要です。
 
 ```bash
@@ -29,4 +33,4 @@ open "$HOME/Applications/T3 Usage.app"
 - 別の T3 Code 環境の使用量を統合
 - 日本語・英語・中国語（簡体字／繁体字）に対応
 
-別環境の接続方法、プライバシー、開発については [ガイド](docs/guide.md) を参照してください。
+別環境の接続方法、プライバシー、開発については [ガイド](docs/guide.md) を、貢献方法は [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。
