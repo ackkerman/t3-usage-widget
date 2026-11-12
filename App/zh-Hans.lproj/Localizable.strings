@@ -1,0 +1,6 @@
+"intent_tab_title" = "切换用量标签";
+"intent_tab_description" = "切换 T3 Usage 的显示。";
+"intent_view" = "显示";
+"intent_period_title" = "切换用量时间范围";
+"intent_period_description" = "切换 T3 Usage 的时间范围。";
+"intent_period" = "时间范围";

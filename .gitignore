@@ -1,0 +1,8 @@
+.build/
+.swiftpm/
+.DS_Store
+build/
+T3UsageWidget.xcodeproj/
+
+# Machine-specific work history stays local.
+*.local.md

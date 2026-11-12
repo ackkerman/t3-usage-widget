@@ -1,0 +1,48 @@
+name: T3UsageWidget
+options:
+  deploymentTarget:
+    macOS: "14.0"
+packages:
+  UsagePackage:
+    path: .
+targets:
+  T3Usage:
+    type: application
+    platform: macOS
+    sources: [App]
+    dependencies:
+      - package: UsagePackage
+        product: UsageCore
+      - package: UsagePackage
+        product: UsageWidget
+      - target: T3UsageWidgetExtension
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: local.t3usagewidget.app
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        INFOPLIST_KEY_CFBundleDisplayName: T3 Usage
+        CURRENT_PROJECT_VERSION: 15
+        MARKETING_VERSION: 0.3.2
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_ENTITLEMENTS: Config/App.entitlements
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+  T3UsageWidgetExtension:
+    type: app-extension
+    platform: macOS
+    sources: [WidgetExtension]
+    dependencies:
+      - package: UsagePackage
+        product: UsageWidget
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: local.t3usagewidget.app.widget
+        CURRENT_PROJECT_VERSION: 15
+        MARKETING_VERSION: 0.3.2
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_FILE: Config/Widget-Info.plist
+        CODE_SIGN_ENTITLEMENTS: Config/Widget.entitlements
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        SKIP_INSTALL: YES
