@@ -2,9 +2,9 @@
 
 T3 Code のトークン、推定コスト、利用上限を macOS のデスクトップとメニューバーで確認する、独立したコンパニオンアプリです。
 
-![サンプルデータを表示した T3 Usage の大サイズウィジェット](docs/images/widget-sample.jpg)
+![WidgetKit Simulator の Timeline に表示した T3 Usage の大サイズウィジェット](docs/images/widget-timeline.png)
 
-*WidgetKit Simulator のサンプル表示です。画像内の数値は実際の使用量ではありません。*
+*WidgetKit Simulator の Timeline 表示です。画像には実際の使用量が含まれます。*
 
 ## 特徴
 
